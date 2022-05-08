@@ -18,6 +18,7 @@
 		93A827DE2827619800E8F231 /* ThylensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A827DD2827619800E8F231 /* ThylensTests.swift */; };
 		93A827E82827619800E8F231 /* ThylensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A827E72827619800E8F231 /* ThylensUITests.swift */; };
 		93A827EA2827619800E8F231 /* ThylensUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A827E92827619800E8F231 /* ThylensUITestsLaunchTests.swift */; };
+		93D55224282803390034B2B7 /* UIColor_EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D55223282803390034B2B7 /* UIColor_EXT.swift */; };
 		AF77DFDDD775EA73BFAE38A5 /* Pods_ThylensTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2375E66D7CA136367BFFB578 /* Pods_ThylensTests.framework */; };
 		D13AEBA84ECB8A838B1D4A90 /* Pods_Thylens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B938CD898EF07C132B8256E5 /* Pods_Thylens.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		93A827E32827619800E8F231 /* ThylensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThylensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A827E72827619800E8F231 /* ThylensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThylensUITests.swift; sourceTree = "<group>"; };
 		93A827E92827619800E8F231 /* ThylensUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThylensUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93D55223282803390034B2B7 /* UIColor_EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_EXT.swift; sourceTree = "<group>"; };
 		9932AC1AD27E2F52E88F99BE /* Pods-Thylens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thylens.debug.xcconfig"; path = "Target Support Files/Pods-Thylens/Pods-Thylens.debug.xcconfig"; sourceTree = "<group>"; };
 		ADDC0CF83CD29012FF31F525 /* Pods-Thylens-ThylensUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thylens-ThylensUITests.debug.xcconfig"; path = "Target Support Files/Pods-Thylens-ThylensUITests/Pods-Thylens-ThylensUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B938CD898EF07C132B8256E5 /* Pods_Thylens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thylens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 		93A827C22827619600E8F231 /* Thylens */ = {
 			isa = PBXGroup;
 			children = (
+				93D55222282803120034B2B7 /* Extentions */,
 				93A827C32827619600E8F231 /* AppDelegate.swift */,
 				93A827C52827619600E8F231 /* SceneDelegate.swift */,
 				93A827C72827619600E8F231 /* ViewController.swift */,
@@ -157,6 +160,14 @@
 			path = ThylensUITests;
 			sourceTree = "<group>";
 		};
+		93D55222282803120034B2B7 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				93D55223282803390034B2B7 /* UIColor_EXT.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		FC0B812370655B44CF420452 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +178,6 @@
 				10C9D6C3778E2DBD05F4851D /* Pods-ThylensTests.debug.xcconfig */,
 				4736C2063C90CAECD78BD210 /* Pods-ThylensTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -413,6 +423,7 @@
 				93A827C82827619600E8F231 /* ViewController.swift in Sources */,
 				93A827C42827619600E8F231 /* AppDelegate.swift in Sources */,
 				93A827C62827619600E8F231 /* SceneDelegate.swift in Sources */,
+				93D55224282803390034B2B7 /* UIColor_EXT.swift in Sources */,
 				93A827CE2827619600E8F231 /* Thylens.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
